@@ -1,5 +1,5 @@
 let socket = io();
-
+console.log("Helloo world");
 let grassColor = "green"
 let grassEaterColor = "#969997"
 let predatorColor = "red"
