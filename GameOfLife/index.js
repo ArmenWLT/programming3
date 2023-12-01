@@ -1,45 +1,51 @@
-// let arr = [1,2,5, "hello", true];
-// let m = arr[2];
+// let arr = [1,3,5,"tox", true, [3,4,5,]];
 
 
-// let obj = { 
-//     mek:1,
-//     erkus:2, 
-//     barev:"hellow", 
-//     flag:true,
-//     display(){
-//         console.log(this.erkus, this.mek, this.flag);
+ 
+
+// let usanox = {
+//     anun:"Arsen",
+//     azganun:"Arsenyan",
+//     tarig:17,
+//  displayInfo(){
+//      console.log(this.anun);
+//  }
+// }
+
+
+// class Usanox{
+//     constructor(anun, azganun, tarig){
+//         this.anun = anun;
+//         this.azganun = azganun;
+//         this.tarig = tarig;
+//         this.id= "898989"
 //     }
 
+//     info(){
+//         console.log(this.anun,this.azganun, this.id);
+//     }
 // }
 
-// let obj = {
-//     anun:"Ani",
-//     azganun:"Anninyan"
-// }
+// let usanox1 = new Usanox("Mane", "Parsamyan", 13)
+// usanox1.info()
+
+// console.log(JSON.stringify(usanox1));
+
+// let objUsanox = JSON.stringify(usanox)
+// objUsanox = JSON.parse(objUsanox)
+
+// let tiv = 6;
+
+// console.log(typeof usanox);
+// console.log(typeof objUsanox);
+// console.log([1,2,3,4,5]);
 
 
 
-
-// let mard = new Person("Ani","Aninyan" )
-// console.log(mard.anun);
-
-
-
-// let a = JSON.stringify(obj);
-// let b = JSON.stringify(arr);
-
-// console.log(typeof a);
-// console.log(typeof b);
-// console.log(typeof 1);
-
-// a = JSON.parse(a);
-// b = JSON.parse(b);
-
-// console.log(typeof a);
-// console.log(typeof b);
+// let axavni = new Axavni("chalubalak", "spitak", "bmblot", "karch");
+// console.log(axavni);
+// axavni.trnel()
 
 
-let loxordMek = new Loxord("Arsen", "Arsenyan", 1.99);
-console.log(loxordMek.superHeight);
-loxordMek.move()
+let arciv = new Arciv("Kovkasyan", "erkar", "sur", "erkar u sur", true);
+arciv.trnel()

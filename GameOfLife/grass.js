@@ -1,6 +1,7 @@
 class Grass extends LivingCreature{
 
-    mul(){
+
+   mul(){
         this.multiply++;
         let emptyCell = this.chooseCell(0);
         let newCell = random(emptyCell);
@@ -12,9 +13,6 @@ class Grass extends LivingCreature{
             grassArr.push(gr);
             this.multiply = 0;
         }
-
-
-
 
 
     }

@@ -13,7 +13,9 @@ class LivingCreature {
             [this.x, this.y + 1],
             [this.x + 1, this.y + 1]
         ];
+
     }
+
 
     chooseCell(char, char2) {
         let found = [];
