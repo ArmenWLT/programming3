@@ -1,0 +1,9 @@
+var fs = require('fs');
+
+function main(){
+   fs.writeFile("porcanq.txt", "Hello world\n", function(err){
+       console.log("fs.writeFile ended");
+   });
+   console.log("fs.writeFile");
+}
+main();
