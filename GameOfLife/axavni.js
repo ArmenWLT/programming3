@@ -1,4 +1,0 @@
-class Axavni extends Trchyun{
-
-
-}
